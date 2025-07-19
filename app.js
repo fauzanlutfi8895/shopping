@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 // Ganti dengan URI MongoDB Anda. Contoh:
 // - Lokal: 'mongodb://localhost:27017/ecommerce_db'
 // - MongoDB Atlas: 'mongodb+srv://<username>:<password>@<cluster-url>/<db-name>?retryWrites=true&w=majority'
-const MONGODB_URI = 'mongodb+srv://fauzanlutfi8895:uiBlZv2fEllwVO18@cluster0.dz2hyjp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; 
+const MONGODB_URI = ''; 
 
 // Koneksi ke MongoDB
 mongoose.connect(MONGODB_URI)
